@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa</title>
+</head>
+
+
+
+
+
+
+<body>
+    
+<form>
+    <fieldset>
+        <legend>Pesquisa De Satisfação</legend>
+        <h2>O que você achou do site?</h2>
+        <input type="radio" name="pesquisa" value="muitobom">Muito Bom
+        <input type="radio" name="pesquisa" value="bom"> Bom
+        <input type="radio" name="pesquisa" value="regular">Regular
+        <input type="radio" name="pesquisa" value="lixo">Lixo
+        <br>
+        <h2>Qual a seção que você mais gostou?</h2>
+        <select name="sacao" id="secao">
+            <option value="emcartaz">Em cartaz</option>
+            <option value="streaming">Streaming</option>
+            <option value="teatro">Teatro</option>
+        </select>
+        
+        <label for="outros">Outros:</label>
+        
+        <input type="text" name="nome" id="outros">
+        <h2>Digite seus comentários no campo abaixo:</h2>
+
+        <textarea style="resize: none; margin-left:15px ;" name="comentario" id="comentario" cols="15" rows="10"></textarea>
+
+        <h2>Diga-nos como entrar em contato com vocês:</h2>
+        <pre>
+            Nome:  <input type="text" name="nome">
+
+            E-mail <input type="text" name="email">
+
+            Fone:  <input type="text" name="fone">
+        </pre>
+        <br>
+        <input type="checkbox" name="novidades">Quero receber as novidades do site por e-mail
+        <br>
+        <input type="submit" value="Enviar Dados" name="enviar">
+        <input type="reset" value="Limpar Dados" name="limpar">
+        <input type="button" onclick="alert('Hoje é Quarta Feira')" value="Mostrar Mensagem" name="Mensagem">
+        <input type="button" onclick="window.open('https://www.instagram.com/')" value="instagram" name="mensagem"> 
+
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+<script>
+   // alert("Olá Mundo"); //
+</script>
+
+</body>
+</html>
