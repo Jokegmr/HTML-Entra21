@@ -1,0 +1,42 @@
+img{
+    width: 30px;
+}
+
+.fundo{
+    background-image: url('../img/fundo2.jpg');
+    background-size: cover;
+    
+}
+
+
+.cadastro {
+    font-size:10px ;
+}
+
+.formulario {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+   background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(255, 10, 10));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+input {
+    color: white;
+    background-color: rgb(9, 33, 53,0.4);
+}
+
+textarea {
+    color: white;
+    background-color: rgb(9, 33, 53,0.4);
+}
+
+
+select {
+    color: white;
+    background-color: rgb(9, 33, 53,0.4);
+}
+

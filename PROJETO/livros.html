@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/livros.css">
+  <link rel="shortcut icon" href="assets/img/livrinho.png" type="image/x-icon">
+  <title>Livros</title>
+</head>
+
+<body class="fundo">
+  <div class="container">
+
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="compra.html">Produtos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="livroscompra.html">Livros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="filmes.html">Filmes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="index.html">Voltar</a>
+      </li>
+    </ul>
+    <div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" height="400px" src="assets/img/ACOTAR.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="400px" src="assets/img/a seleção 2.webp" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="400px" src="assets/img/Eleanor & Grey.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+
+      </div>
+
+      <form action="" method="post">
+
+        <h1 class="cadastro">Cadastro</h1>
+
+
+        <fieldset class="formulario">
+          <label for="nome">Nome</label>
+          <br>
+          <input type="text" name="Nome" id="nome" placeholder="Nome">
+          <br>
+
+          <label for="sobrenome">Sobrenome</label>
+          <br>
+          <input type="sobrenome" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+          <br>
+
+          <label for="e-mail">E-mail</label>
+          <br>
+          <input type="e-mail" name="e-mail" id="e-mail" placeholder="E-mail">
+          <br>
+
+          <label for="telefone">Telefone</label>
+          <br>
+          <input type="telefone" name="telefone" id="telefone" placeholder="Telefone">
+          <br>
+
+          <label for="date">Data de Nascimento</label>
+          <br>
+          <input type="date" name="date" id="date">
+          <br>
+
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="FeedBack"></textarea>
+          <br>
+
+
+
+
+          <select name="Estados" id="Estados">
+            <option value="SC">Santa Catarina</option>
+            <option value="RJ">Rio De Janeiro</option>
+            <option value="BH">Bahia</option>
+            <option value="RS">Rio Grande Do Sul</option>
+            <option value="MT">Mato Grosso Do Sul</option>
+          </select>
+          <br>
+          <input type="submit" value="Enviar">
+
+
+        </fieldset>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+img {
+    width: 1100px;
+    height: 500;
+}
+
+h1 {
+    text-shadow: 0px 0px 10px rgb(10, 10, 56);
+    font-size: 50px;
+    background: -webkit-linear-gradient(black,rgb(8, 8, 102));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+p {
+   
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(255, 0, 200),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.marginseleçao {
+    margin-top: 42px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-image: url('../img/praia\ casal.jpg');
+    background-size: cover;
+}
+.livro {
+   
+    text-align: center;
+    color: white;
+}
+
+
+.livrinho {
+    width: 900px;
+    margin: 0 auto ;
+    background-color: #096ba8;
+
+}
+
+
+.aselecao {
+    width: 300px;
+    height: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.eleonoregray {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.umafarçadeamornaespanha {
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.maisqueamigos {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+.ondedeixareimeucoração {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.ahipotese {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.amorteoricamente {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+
+.arazaodoamor {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+.eassimqueacaba {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.eleonorepark {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.oladofeiodoamor {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.melhordoquenosfilmes {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}

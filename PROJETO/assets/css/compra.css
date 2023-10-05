@@ -1,0 +1,13 @@
+.fundo4 {
+    background-image: url('../img/fundo4.jpg');
+    background-size: cover;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    background: -webkit-linear-gradient(rgb(248, 2, 2),rgb(8, 8, 102));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
