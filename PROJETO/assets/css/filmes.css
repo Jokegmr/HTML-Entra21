@@ -1,0 +1,107 @@
+.fundo {
+    background-image: url('../img/fundo3.jpg');
+    background-size: cover;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+
+
+h1 {
+    background:-webkit-linear-gradient(rgb(211, 25, 25),blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:white ;
+}
+
+.umapaixao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.umapaixao {
+    display: inline;
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+
+.queridojohn {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.aultimamusica {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.umportoseguro {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.umalongajornada {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+
+}
+
+.umhomemdesorte {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.paratodos {
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(246, 245, 247, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
